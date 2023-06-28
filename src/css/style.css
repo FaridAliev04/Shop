@@ -1,0 +1,40 @@
+.nav_link {
+  color: #28B463 !important;
+  font-size: 1.3rem;
+}
+
+.nav_logo {
+  font-size: 2rem;
+}
+
+.shop_icons {
+  color: red;
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+}
+
+.nav_ul {
+  gap: 1rem;
+}
+
+.list_hr {
+  width: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list_one {
+  border: 1px solid black;
+  width: 18rem;
+}
+
+.list_li {
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}/*# sourceMappingURL=style.css.map */
