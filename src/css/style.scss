@@ -1,16 +1,19 @@
-.nav_link{
-    color: #28B463 !important; 
+.nav_link {
+    color: #28B463 !important;
     font-size: 1.3rem;
 }
-.nav_logo{
+
+.nav_logo {
     font-size: 2rem;
 }
-.shop_icons{
-    color:red;
+
+.shop_icons {
+    color: red;
     width: 1.7rem;
     height: 1.7rem;
     cursor: pointer;
 }
+
 // .icons{
 //     position: relative;
 // }
@@ -25,27 +28,110 @@
 //     top: 0;
 //     right: 0;
 // }
-.nav_ul{
+.nav_ul {
     gap: 1rem;
 }
+
 // .list_ul{
 //     display: flex;
 // }
-.list_hr{
+.list_hr {
     width: 5rem;
 }
-ul{
+
+ul {
     list-style-type: none;
     padding-left: 0;
 }
-.list_one{
+
+.list_one {
     border: 1px solid black;
-    width: 18rem;
-    
+    width: 20rem;
+    height: 22.2rem;
 }
-.list_li{
+
+.list_li-div {
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.main {
+    margin-top: 2rem;
+}
+
+.none {
+    opacity: 0;
+}
+
+.block {
+    opacity: 1;
+}
+
+.list {
     display: flex;
-    gap: 1rem;
+}
+
+.list_li {
+    background-color: #28B463;
+    color: black;
+    font-size: 1rem;
+}
+
+@mixin reklamIcons {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.reklam_icons {
+    @include reklamIcons()
+}
+.main{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+.right_main{
+    position: relative;
+    
+}
+.rek_img{
+    width: 17rem;
+    height: 30rem;
+}
+.next{
+    display: flex;
+    justify-content: center;
+}
+.sell_img{
+    width: 10rem;
+}
+.sell_count{
+    font-size: 1rem;
+    
+}
+.sell_spam{
+    color: red;
+}
+.sell_main{
+    // box-shadow: 22px 22px 16px -3px rgba(0,0,0,0.1);
+    box-shadow: 22px 22px 16px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 13rem;
+    padding: 0.5rem;
+}
+.sell{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.sell_icons-react{
+    @include reklamIcons()
+}
+.sell_icons{
+    display: flex;
+}
+.sell_number{
+    width: 2rem;
 }

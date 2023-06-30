@@ -29,12 +29,99 @@ ul {
 
 .list_one {
   border: 1px solid black;
-  width: 18rem;
+  width: 20rem;
+  height: 22.2rem;
+}
+
+.list_li-div {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.main {
+  margin-top: 2rem;
+}
+
+.none {
+  opacity: 0;
+}
+
+.block {
+  opacity: 1;
+}
+
+.list {
+  display: flex;
 }
 
 .list_li {
-  font-size: 1.2rem;
+  background-color: #28B463;
+  color: black;
+  font-size: 1rem;
+}
+
+.reklam_icons {
+  width: 2rem;
+  height: 2rem;
   cursor: pointer;
+}
+
+.main {
+  width: 97%;
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+}
+
+.right_main {
+  position: relative;
+}
+
+.rek_img {
+  width: 17rem;
+  height: 30rem;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+}
+
+.sell_img {
+  width: 10rem;
+}
+
+.sell_count {
+  font-size: 1rem;
+}
+
+.sell_spam {
+  color: red;
+}
+
+.sell_main {
+  box-shadow: 22px 22px 16px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  width: 13rem;
+  padding: 0.5rem;
+}
+
+.sell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sell_icons-react {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.sell_icons {
+  display: flex;
+}
+
+.sell_number {
+  width: 2rem;
 }/*# sourceMappingURL=style.css.map */
